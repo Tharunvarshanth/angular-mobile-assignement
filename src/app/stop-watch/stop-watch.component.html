@@ -1,0 +1,6 @@
+<div class="stop-watch">
+  <div class="display">{{format(mm)}}:{{format(ss)}}:{{format(ms)}}</div>
+  <button class="control" (click)="clickHandler()">
+    {{isRunning ? 'Stop' : 'Start'}}
+  </button>
+</div>
